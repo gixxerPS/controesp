@@ -4229,7 +4229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 201.93 92.71 0)
 			(effects
 				(font
@@ -4248,6 +4248,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 201.93 92.71 0)
 			(effects
 				(font
@@ -5145,7 +5154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 217.17 59.69 0)
 			(effects
 				(font
@@ -5164,6 +5173,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -5529,7 +5547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -5548,6 +5566,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 222.25 59.69 0)
 			(effects
 				(font
@@ -7370,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 201.93 102.87 0)
 			(effects
 				(font
@@ -7389,6 +7416,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 201.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 201.93 102.87 0)
 			(effects
 				(font

@@ -1494,12 +1494,6 @@
 		(uuid "356328b6-27c8-45cc-944a-41f67de04676")
 	)
 	(junction
-		(at 93.98 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c4c1650-f4c0-4232-a16b-ff0844e7fe24")
-	)
-	(junction
 		(at 106.68 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1528,12 +1522,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3909ba7-7ed1-466e-9a7e-a8ea254616c7")
-	)
-	(junction
-		(at 93.98 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e54e86b4-770e-4701-b544-18e08cebf1f7")
 	)
 	(junction
 		(at 106.68 13.97)
@@ -1753,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 175.26) (xy 96.52 175.26)
+			(xy 88.9 175.26) (xy 96.52 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2003,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 172.72) (xy 96.52 172.72)
+			(xy 91.44 172.72) (xy 96.52 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2423,16 +2411,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 175.26) (xy 93.98 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f94992-de2a-4957-83b6-6040e9dbece7")
-	)
-	(wire
-		(pts
 			(xy 109.22 149.86) (xy 106.68 149.86)
 		)
 		(stroke
@@ -2710,16 +2688,6 @@
 			(type default)
 		)
 		(uuid "e481759e-415f-4ccf-a4db-a461dbfe575e")
-	)
-	(wire
-		(pts
-			(xy 91.44 172.72) (xy 93.98 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6541b17-a770-4b32-9739-05efec49be85")
 	)
 	(wire
 		(pts
@@ -3187,7 +3155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -3206,6 +3174,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 76.2 144.78 0)
 			(effects
 				(font
@@ -3342,7 +3319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 149.86 0)
 			(effects
 				(font
@@ -3361,6 +3338,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -3409,7 +3395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -3428,6 +3414,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 109.22 130.81 0)
 			(effects
 				(font
@@ -3816,7 +3811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 113.03 0)
 			(effects
 				(font
@@ -3835,6 +3830,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 109.22 113.03 0)
 			(effects
 				(font
@@ -3883,7 +3887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 40.64 0)
 			(effects
 				(font
@@ -3902,6 +3906,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 109.22 40.64 0)
 			(effects
 				(font
@@ -4254,7 +4267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 81.28 149.86 0)
 			(effects
 				(font
@@ -4281,6 +4294,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31b937a9-c939-46db-be0b-4942689f4601")
 		)
@@ -4288,72 +4310,6 @@
 			(project "controesp"
 				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 93.98 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1af7378-2e0c-49e9-a071-b3ed0d3d5604")
-		(property "Reference" "TP11"
-			(at 96.52 168.7829 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 91.44 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 93.98 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00fdeb76-2622-408b-90ff-a4d3f2163da9")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -4475,7 +4431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 20.32 0)
 			(effects
 				(font
@@ -4494,6 +4450,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 109.22 20.32 0)
 			(effects
 				(font
@@ -4715,7 +4680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 77.47 0)
 			(effects
 				(font
@@ -4734,6 +4699,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 109.22 77.47 0)
 			(effects
 				(font
@@ -4782,7 +4756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -4809,6 +4783,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfbc629a-4187-43f1-9867-a8e79422a2e1")
 		)
@@ -4816,73 +4799,6 @@
 			(project "controesp"
 				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 93.98 175.26 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5b0cea0-97d9-4180-a1c0-7e4de380686c")
-		(property "Reference" "TP14"
-			(at 96.52 179.1971 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 91.44 271.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 93.98 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aa6386b-5f0e-4ab9-95b4-df7950241498")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -5145,6 +5061,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 109.22 57.15 0)
 			(effects
 				(font
