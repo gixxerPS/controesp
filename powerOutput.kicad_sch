@@ -1519,15 +1519,15 @@
 		)
 		(uuid "ed67f9db-78ca-4d83-981c-f6995a588517")
 	)
-	(text "Relais output 5-8"
+	(text "Digital output 4-10 (NPN, 0.5A)"
 		(exclude_from_sim no)
-		(at 211.582 106.172 0)
+		(at 217.678 106.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "fbce3120-429e-492a-9555-cbacede43b9a")
+		(uuid "f4aca9b1-0101-4d0b-b9dd-aab2f8ec4152")
 	)
 	(junction
 		(at 106.68 50.8)
@@ -1542,30 +1542,6 @@
 		(uuid "8d5b0ca8-7245-4ec5-90f4-d81c2d2cbd21")
 	)
 	(junction
-		(at 102.87 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9398aef3-3ef7-4e9c-b280-7e9514e671ee")
-	)
-	(junction
-		(at 106.68 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a652e407-160f-4abb-9af7-948424415e8b")
-	)
-	(junction
-		(at 106.68 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abcb7de5-4ccb-4daa-9ecb-8e51e010360f")
-	)
-	(junction
-		(at 106.68 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3909ba7-7ed1-466e-9a7e-a8ea254616c7")
-	)
-	(junction
 		(at 106.68 13.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1576,10 +1552,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f55273d1-4f18-414c-b4b0-b2063979a679")
-	)
-	(no_connect
-		(at 132.08 143.51)
-		(uuid "117f054c-80ab-491e-912c-40125f6cf113")
 	)
 	(no_connect
 		(at 45.72 153.67)
@@ -1598,14 +1570,6 @@
 		(uuid "280a913d-48d7-4561-b02d-c289e3002403")
 	)
 	(no_connect
-		(at 132.08 106.68)
-		(uuid "45fe5d96-7bc7-4667-99c3-7e8f43770a79")
-	)
-	(no_connect
-		(at 132.08 87.63)
-		(uuid "69adeacb-421f-4708-9bdf-1f256ff1f27c")
-	)
-	(no_connect
 		(at 132.08 50.8)
 		(uuid "a1aa6765-f54f-4aea-8ce5-7e1e3264c387")
 	)
@@ -1616,10 +1580,6 @@
 	(no_connect
 		(at 66.04 151.13)
 		(uuid "df863c35-fc71-4e04-aa20-2b1cfbb4fcda")
-	)
-	(no_connect
-		(at 132.08 124.46)
-		(uuid "e192f123-8123-4212-b2c9-0d8af511fb1d")
 	)
 	(no_connect
 		(at 132.08 69.85)
@@ -1695,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 102.87 90.17)
+			(xy 102.87 90.17) (xy 102.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1725,23 +1685,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 124.46) (xy 106.68 124.46)
+			(xy 99.06 124.46) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "12c703b3-e918-48f3-8aee-70af09ee778c")
-	)
-	(wire
-		(pts
-			(xy 121.92 102.87) (xy 124.46 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a24a72f-ef34-4be7-8d5d-36ff6966b169")
 	)
 	(wire
 		(pts
@@ -1752,16 +1702,6 @@
 			(type default)
 		)
 		(uuid "1d5efbe9-0bac-4bd1-a3e3-81e7695e7b38")
-	)
-	(wire
-		(pts
-			(xy 102.87 106.68) (xy 102.87 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f035f69-7119-4701-8cbb-fc17b04807d2")
 	)
 	(wire
 		(pts
@@ -1805,26 +1745,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 113.03) (xy 106.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283aff10-66d2-4fbb-97a9-3bbfffb28371")
-	)
-	(wire
-		(pts
-			(xy 106.68 124.46) (xy 124.46 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39a64157-194a-4760-90cb-069b05cd73a2")
-	)
-	(wire
-		(pts
 			(xy 180.34 13.97) (xy 180.34 48.26)
 		)
 		(stroke
@@ -1865,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 143.51) (xy 106.68 143.51)
+			(xy 95.25 143.51) (xy 180.34 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1915,16 +1835,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 139.7) (xy 124.46 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50629657-dedb-492a-bf8f-73d5d6d9eaae")
-	)
-	(wire
-		(pts
 			(xy 180.34 111.76) (xy 180.34 143.51)
 		)
 		(stroke
@@ -1932,16 +1842,6 @@
 			(type default)
 		)
 		(uuid "5174d8d0-c1a3-4751-82bc-3e329862e969")
-	)
-	(wire
-		(pts
-			(xy 106.68 143.51) (xy 124.46 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5861e7fd-25de-4e06-9d0d-f019c5f1a92d")
 	)
 	(wire
 		(pts
@@ -1955,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 106.68) (xy 124.46 106.68)
+			(xy 102.87 106.68) (xy 190.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1975,16 +1875,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b2eb97d-d343-4190-9e3f-88d87c8c5a99")
-	)
-	(wire
-		(pts
 			(xy 25.4 92.71) (xy 45.72 92.71)
 		)
 		(stroke
@@ -1992,16 +1882,6 @@
 			(type default)
 		)
 		(uuid "5d4a5fd8-2939-4fcd-bee2-e19c340616b0")
-	)
-	(wire
-		(pts
-			(xy 106.68 130.81) (xy 106.68 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e562aab-a65c-4064-92b5-47142681f618")
 	)
 	(wire
 		(pts
@@ -2052,26 +1932,6 @@
 			(type default)
 		)
 		(uuid "6660cf48-e9d8-4147-80ec-75885e657d40")
-	)
-	(wire
-		(pts
-			(xy 102.87 106.68) (xy 106.68 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "671e002f-0aab-4c88-9f29-3c7283c6f2d4")
-	)
-	(wire
-		(pts
-			(xy 137.16 124.46) (xy 177.8 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a924f9-b8e6-487d-a67a-aaa1d8eae406")
 	)
 	(wire
 		(pts
@@ -2132,16 +1992,6 @@
 			(type default)
 		)
 		(uuid "723f5224-43d4-4c29-a5d7-3d44ef6ebb5f")
-	)
-	(wire
-		(pts
-			(xy 137.16 87.63) (xy 180.34 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74819c30-0784-4f06-b389-d3b8a8aeb346")
 	)
 	(wire
 		(pts
@@ -2235,16 +2085,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 109.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fdde2fa-d65b-40fa-bc48-0a17b491468b")
-	)
-	(wire
-		(pts
 			(xy 121.92 29.21) (xy 124.46 29.21)
 		)
 		(stroke
@@ -2295,16 +2135,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 130.81) (xy 106.68 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bdbf48b-97b1-4490-ae70-be374f7669c0")
-	)
-	(wire
-		(pts
 			(xy 25.4 100.33) (xy 40.64 100.33)
 		)
 		(stroke
@@ -2345,16 +2175,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 143.51) (xy 137.16 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad974898-7039-4fae-a470-1aa220eeea31")
-	)
-	(wire
-		(pts
 			(xy 137.16 69.85) (xy 175.26 69.85)
 		)
 		(stroke
@@ -2392,26 +2212,6 @@
 			(type default)
 		)
 		(uuid "b3eaaae1-4336-41a9-9d84-ab896cd663f2")
-	)
-	(wire
-		(pts
-			(xy 106.68 149.86) (xy 106.68 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6540f7c-6e6c-4fc0-8fb9-cbee45b689a6")
-	)
-	(wire
-		(pts
-			(xy 109.22 149.86) (xy 106.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba0c62cb-3c06-4ec8-b4f6-e43b81bc5b8e")
 	)
 	(wire
 		(pts
@@ -2485,23 +2285,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 87.63) (xy 124.46 87.63)
+			(xy 66.04 87.63) (xy 180.34 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd787564-d8c0-4c45-b9dd-ad583c7ae5cc")
-	)
-	(wire
-		(pts
-			(xy 106.68 113.03) (xy 106.68 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0463585-27d2-4850-bdad-5a3bb646da3d")
 	)
 	(wire
 		(pts
@@ -2602,26 +2392,6 @@
 			(type default)
 		)
 		(uuid "f0abdaab-c197-4d25-8fbf-47bede254e44")
-	)
-	(wire
-		(pts
-			(xy 121.92 158.75) (xy 124.46 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f440ca6e-6e6e-47c4-b5c3-6a5e35520503")
-	)
-	(wire
-		(pts
-			(xy 121.92 121.92) (xy 124.46 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f536bc22-5c9c-4e15-862d-3c530a8c083f")
 	)
 	(wire
 		(pts
@@ -2759,27 +2529,6 @@
 			)
 		)
 	)
-	(global_label "COM2"
-		(shape input)
-		(at 134.62 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5fd485e9-6168-4e4a-9ed6-974c1a12deec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DO5"
 		(shape input)
 		(at 66.04 146.05 0)
@@ -2822,27 +2571,6 @@
 			)
 		)
 	)
-	(global_label "COM2"
-		(shape input)
-		(at 134.62 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6da1d875-b876-4383-b63a-3625a9ab627a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "COM1"
 		(shape input)
 		(at 134.62 29.21 0)
@@ -2856,48 +2584,6 @@
 		(uuid "76dce484-ba72-4458-8d63-c88e16724e46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.8666 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COM2"
-		(shape input)
-		(at 190.5 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e34ff49-a04b-4472-8a5c-cc03eceee42a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.2534 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "COM2"
-		(shape input)
-		(at 134.62 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9335e085-6b5c-49d0-967b-40daae281bf1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,27 +2668,6 @@
 		(uuid "c70ebf1e-92bf-448a-9a5e-6eae3a0a8a41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.8352 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COM2"
-		(shape input)
-		(at 134.62 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c78fb0a2-2aa5-477b-bc23-e97977828fab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,17 +2795,6 @@
 	)
 	(hierarchical_label "COM"
 		(shape input)
-		(at 121.92 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31008305-d539-4a86-bdd5-9370396bfbb8")
-	)
-	(hierarchical_label "COM"
-		(shape input)
 		(at 69.85 133.35 0)
 		(effects
 			(font
@@ -3150,16 +2804,16 @@
 		)
 		(uuid "3baf6bb8-f5f3-46c6-afab-6717f2264bb3")
 	)
-	(hierarchical_label "COM"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 121.92 121.92 180)
+		(at 190.5 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "49e2ebc5-c16d-4380-9cf5-3a753ca52552")
+		(uuid "58d373cb-6385-474c-b53b-9103724a6f47")
 	)
 	(hierarchical_label "COM"
 		(shape input)
@@ -3304,17 +2958,6 @@
 		)
 		(uuid "d7b953a9-fe3f-44b9-b12c-2c63f3637225")
 	)
-	(hierarchical_label "COM"
-		(shape input)
-		(at 121.92 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc5aef9f-e1aa-4686-8221-f5d1948d07fe")
-	)
 	(hierarchical_label "DO5"
 		(shape input)
 		(at 25.4 87.63 180)
@@ -3347,17 +2990,6 @@
 			(justify right)
 		)
 		(uuid "f33f7fc5-501f-4b33-99e5-46c2a18a0a16")
-	)
-	(hierarchical_label "COM"
-		(shape input)
-		(at 121.92 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb5cf071-19b8-4723-aae3-8bf15c1507fa")
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
@@ -3443,246 +3075,6 @@
 			(project ""
 				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
 					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12ead58a-aa95-4d9f-a429-89a6d35c0a6c")
-		(property "Reference" "TP8"
-			(at 111.76 145.9229 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 106.68 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 109.22 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dfc7827-99ff-4f97-9536-0de7cdc5f63d")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bcba2b1-2f2e-437e-b3c3-6c0956241402")
-		(property "Reference" "TP7"
-			(at 111.76 126.8729 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 111.76 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 109.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "851ac7d1-fc37-44e0-86a1-171c651387cd")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20090555-5f95-4f3c-a596-ea8250b7973d")
-		(property "Reference" "K8"
-			(at 140.97 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
-			(at 140.97 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C276436"
-			(at 129.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "24d311a9-3955-4dcb-a9b7-7b441a3d5c65")
-		)
-		(pin "2"
-			(uuid "14e6846a-42ff-458e-8403-35bfaa7ae89f")
-		)
-		(pin "1"
-			(uuid "5d01df71-fa02-48c3-8950-a9b25253bafe")
-		)
-		(pin "3"
-			(uuid "60c1932d-966f-4770-8682-5f2373dcd907")
-		)
-		(pin "5"
-			(uuid "cb585891-9635-4ba4-9e95-9b7c5cbe94d4")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "K8")
 					(unit 1)
 				)
 			)
@@ -3973,82 +3365,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a58275a-b3e6-440f-b201-636895999ce5")
-		(property "Reference" "TP6"
-			(at 111.76 109.0929 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 111.76 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c43de5c-cc98-4daf-9834-a38c9c6eca79")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 109.22 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4118,95 +3434,6 @@
 			(project "controesp"
 				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f1e1f1b-4b8f-46e5-b4a5-7ff19975a9bd")
-		(property "Reference" "K5"
-			(at 140.97 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
-			(at 140.97 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C276436"
-			(at 129.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f69a5610-9670-4384-a80e-cf090cc8f63e")
-		)
-		(pin "2"
-			(uuid "370b7509-e5c5-4e7f-82cb-488d7ed15e5f")
-		)
-		(pin "1"
-			(uuid "74e817ce-4b36-4476-b1f4-a66e6de2059b")
-		)
-		(pin "3"
-			(uuid "059d8765-b6bd-4e01-b8a7-b50d807017ea")
-		)
-		(pin "5"
-			(uuid "da3cfa69-38ac-4923-b0a4-52c9529d4cd8")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -4333,95 +3560,6 @@
 			(project "controesp"
 				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d655877-a7b3-4b29-ba79-370c93b360da")
-		(property "Reference" "K7"
-			(at 140.97 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
-			(at 140.97 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C276436"
-			(at 129.54 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c9dd510b-d059-4f38-8a39-1f6c87fb3094")
-		)
-		(pin "2"
-			(uuid "cd9c22b7-ffde-46b6-bf81-8e160872192d")
-		)
-		(pin "1"
-			(uuid "86d9458e-568f-49d1-ab3a-7ebda42c8ff6")
-		)
-		(pin "3"
-			(uuid "2ba6cf2a-5172-4221-a903-41ac8d87db16")
-		)
-		(pin "5"
-			(uuid "03f00ffa-cbb4-4bf9-af0c-897f0d030ea8")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "K7")
 					(unit 1)
 				)
 			)
@@ -4592,95 +3730,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c88cab12-66e3-4460-9a35-0d8977bb60e7")
-		(property "Reference" "K6"
-			(at 140.97 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
-			(at 140.97 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C276436"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "274f8f6c-cac5-4604-8917-fb049d38086e")
-		)
-		(pin "2"
-			(uuid "68e54080-967a-4eeb-85a4-ecce4ebc6a0d")
-		)
-		(pin "1"
-			(uuid "f6d96b01-4903-4fc5-9fe9-7d0d4c3db2f6")
-		)
-		(pin "3"
-			(uuid "b17a86c8-b83f-4d58-9b4e-9740ff62fa6e")
-		)
-		(pin "5"
-			(uuid "ad630849-5df6-4b55-b3b5-9e867bb93e37")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "K6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 109.22 77.47 0)
 		(unit 1)
@@ -4751,82 +3800,6 @@
 			(project "controesp"
 				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8c77d25-42c4-48c6-af96-6413fb24fa36")
-		(property "Reference" "TP5"
-			(at 111.76 90.0429 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 111.76 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfbc629a-4187-43f1-9867-a8e79422a2e1")
-		)
-		(instances
-			(project "controesp"
-				(path "/aa25b9ad-b1cb-4070-bd5f-fd163558ccd7/525bd36e-8e0f-45f3-ae1f-4768f65c2e68"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
