@@ -1501,7 +1501,7 @@
 	)
 	(text "Digital output 1-3 (NPN, 0.5A)"
 		(exclude_from_sim no)
-		(at 216.916 59.436 0)
+		(at 216.916 61.976 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1511,7 +1511,7 @@
 	)
 	(text "Relais output 1-4"
 		(exclude_from_sim no)
-		(at 212.09 50.292 0)
+		(at 212.09 52.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1530,25 +1530,25 @@
 		(uuid "f4aca9b1-0101-4d0b-b9dd-aab2f8ec4152")
 	)
 	(junction
-		(at 106.68 69.85)
+		(at 106.68 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "132e15bd-47ba-493a-9daa-cd26da560c39")
 	)
 	(junction
-		(at 106.68 50.8)
+		(at 106.68 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "461a631e-db10-48ca-953b-33e53085771e")
 	)
 	(junction
-		(at 106.68 33.02)
+		(at 106.68 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce3a3d1c-6192-4ccc-99df-2a9119e8718f")
 	)
 	(junction
-		(at 106.68 13.97)
+		(at 106.68 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4dd56b2-34f0-481c-bb2d-e5f1b227f60c")
@@ -1562,11 +1562,11 @@
 		(uuid "1e7babda-ba6f-4384-af7f-14895736619c")
 	)
 	(no_connect
-		(at 132.08 13.97)
+		(at 132.08 16.51)
 		(uuid "280a913d-48d7-4561-b02d-c289e3002403")
 	)
 	(no_connect
-		(at 132.08 50.8)
+		(at 132.08 53.34)
 		(uuid "a1aa6765-f54f-4aea-8ce5-7e1e3264c387")
 	)
 	(no_connect
@@ -1574,7 +1574,7 @@
 		(uuid "df863c35-fc71-4e04-aa20-2b1cfbb4fcda")
 	)
 	(no_connect
-		(at 132.08 69.85)
+		(at 132.08 72.39)
 		(uuid "e9948d59-4233-444f-9a84-ed24e0514a94")
 	)
 	(no_connect
@@ -1582,7 +1582,7 @@
 		(uuid "f0fed35c-4582-43ba-98b7-38c2d9ddc4f7")
 	)
 	(no_connect
-		(at 132.08 33.02)
+		(at 132.08 35.56)
 		(uuid "f9cf1753-70cb-4737-9616-eaab04546fd7")
 	)
 	(wire
@@ -1627,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 175.26 55.88)
+			(xy 175.26 72.39) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1637,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 106.68 69.85)
+			(xy 104.14 72.39) (xy 106.68 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1647,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 50.8) (xy 190.5 50.8)
+			(xy 177.8 53.34) (xy 190.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 33.02) (xy 177.8 50.8)
+			(xy 177.8 35.56) (xy 177.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1677,7 +1677,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 13.97) (xy 180.34 48.26)
+			(xy 180.34 16.51) (xy 180.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1687,7 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 124.46 69.85)
+			(xy 106.68 72.39) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1707,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 50.8) (xy 175.26 53.34)
+			(xy 175.26 53.34) (xy 175.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1727,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 77.47) (xy 109.22 77.47)
+			(xy 106.68 80.01) (xy 109.22 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1737,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 48.26) (xy 124.46 48.26)
+			(xy 121.92 50.8) (xy 124.46 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1747,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 106.68 33.02)
+			(xy 104.14 35.56) (xy 106.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 20.32) (xy 106.68 20.32)
+			(xy 109.22 22.86) (xy 106.68 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 106.68 50.8)
+			(xy 106.68 59.69) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 124.46 85.09)
+			(xy 121.92 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 33.02) (xy 124.46 33.02)
+			(xy 106.68 35.56) (xy 124.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 53.34) (xy 190.5 53.34)
+			(xy 175.26 55.88) (xy 190.5 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 48.26) (xy 190.5 48.26)
+			(xy 180.34 50.8) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 106.68 33.02)
+			(xy 106.68 43.18) (xy 106.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 40.64) (xy 106.68 40.64)
+			(xy 109.22 43.18) (xy 106.68 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 55.88) (xy 190.5 55.88)
+			(xy 175.26 58.42) (xy 190.5 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 13.97) (xy 124.46 13.97)
+			(xy 106.68 16.51) (xy 124.46 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 20.32) (xy 106.68 13.97)
+			(xy 106.68 22.86) (xy 106.68 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 13.97) (xy 106.68 13.97)
+			(xy 104.14 16.51) (xy 106.68 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 29.21) (xy 124.46 29.21)
+			(xy 121.92 31.75) (xy 124.46 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 33.02) (xy 177.8 33.02)
+			(xy 137.16 35.56) (xy 177.8 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 175.26 50.8)
+			(xy 137.16 53.34) (xy 175.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 69.85) (xy 175.26 69.85)
+			(xy 137.16 72.39) (xy 175.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 13.97) (xy 180.34 13.97)
+			(xy 137.16 16.51) (xy 180.34 16.51)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 106.68 50.8)
+			(xy 104.14 53.34) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 124.46 50.8)
+			(xy 106.68 53.34) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 106.68 77.47)
+			(xy 106.68 72.39) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 66.04) (xy 124.46 66.04)
+			(xy 121.92 68.58) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 57.15) (xy 106.68 57.15)
+			(xy 109.22 59.69) (xy 106.68 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2104,6 +2104,46 @@
 			(type default)
 		)
 		(uuid "f366bd68-3f61-480b-aab0-b66cfc10413e")
+	)
+	(label "230V"
+		(at 167.64 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "187c58dc-5b67-4cb5-9d4f-9e0a319c7595")
+	)
+	(label "230V"
+		(at 167.64 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89ba2e96-dd03-4610-bb85-0d5ddefcc74f")
+	)
+	(label "230V"
+		(at 167.64 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b264e928-a684-4f76-bb00-39ae74fe344d")
+	)
+	(label "230V"
+		(at 167.64 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce70490c-5ba0-487e-a791-0265e3795455")
 	)
 	(global_label "DO.12"
 		(shape input)
@@ -2149,7 +2189,7 @@
 	)
 	(global_label "COM1"
 		(shape input)
-		(at 134.62 66.04 0)
+		(at 134.62 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2159,7 +2199,7 @@
 		)
 		(uuid "1bd549a3-517a-4a0b-95aa-5fd040e4f0d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 66.04 0)
+			(at 142.8666 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2273,7 @@
 	)
 	(global_label "DO.12"
 		(shape input)
-		(at 104.14 50.8 180)
+		(at 104.14 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2243,7 +2283,7 @@
 		)
 		(uuid "4524d004-e751-4941-bf41-148c230d02ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.5305 50.8 0)
+			(at 95.5305 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2399,7 @@
 	)
 	(global_label "DO.3"
 		(shape input)
-		(at 190.5 63.5 180)
+		(at 190.5 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2369,7 +2409,7 @@
 		)
 		(uuid "6635834e-1ad0-4037-8c0e-51dc8dc1a8d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.1 63.5 0)
+			(at 183.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2420,7 @@
 	)
 	(global_label "COM1"
 		(shape input)
-		(at 134.62 29.21 0)
+		(at 134.62 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2390,7 +2430,7 @@
 		)
 		(uuid "76dce484-ba72-4458-8d63-c88e16724e46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 29.21 0)
+			(at 142.8666 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2525,7 @@
 	)
 	(global_label "COM1"
 		(shape input)
-		(at 190.5 45.72 180)
+		(at 190.5 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2495,7 +2535,7 @@
 		)
 		(uuid "aac7c176-b8b3-4323-af36-0ef6a191c041")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.2534 45.72 0)
+			(at 182.2534 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2567,7 @@
 	)
 	(global_label "COM1"
 		(shape input)
-		(at 134.62 48.26 0)
+		(at 134.62 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2537,7 +2577,7 @@
 		)
 		(uuid "b7f66cff-4ac4-4f3f-b615-bfc543a79419")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 48.26 0)
+			(at 142.8666 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2588,7 @@
 	)
 	(global_label "DO.13"
 		(shape input)
-		(at 104.14 33.02 180)
+		(at 104.14 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2558,7 +2598,7 @@
 		)
 		(uuid "b86e432f-965d-41b3-9766-6f1ddebbf388")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.5305 33.02 0)
+			(at 95.5305 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2651,7 @@
 	)
 	(global_label "DO.11"
 		(shape input)
-		(at 104.14 69.85 180)
+		(at 104.14 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2621,7 +2661,7 @@
 		)
 		(uuid "c8ad5d26-0f0d-4c7a-8ee3-33f843ac3dcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.5305 69.85 0)
+			(at 95.5305 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2693,7 @@
 	)
 	(global_label "DO.2"
 		(shape input)
-		(at 190.5 60.96 180)
+		(at 190.5 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2663,7 +2703,7 @@
 		)
 		(uuid "d2bc5bf1-de46-408f-9afe-c9312fbfc6a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.1 60.96 0)
+			(at 183.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2714,7 @@
 	)
 	(global_label "COM1"
 		(shape input)
-		(at 134.62 85.09 0)
+		(at 134.62 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2684,7 +2724,7 @@
 		)
 		(uuid "d6544516-6250-4964-9c66-b74516035043")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8666 85.09 0)
+			(at 142.8666 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2756,7 @@
 	)
 	(global_label "DO.1"
 		(shape input)
-		(at 190.5 58.42 180)
+		(at 190.5 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2726,7 +2766,7 @@
 		)
 		(uuid "ea63a7f5-77dc-49bc-8f38-4079144f9d8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.1 58.42 0)
+			(at 183.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2777,7 @@
 	)
 	(global_label "DO.14"
 		(shape input)
-		(at 104.14 13.97 180)
+		(at 104.14 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2747,7 +2787,7 @@
 		)
 		(uuid "f6eedae9-81c5-4305-9362-c20fcd043ef7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.5305 13.97 0)
+			(at 95.5305 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2840,7 @@
 	)
 	(hierarchical_label "COM"
 		(shape input)
-		(at 121.92 85.09 180)
+		(at 121.92 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2866,7 +2906,7 @@
 	)
 	(hierarchical_label "COM"
 		(shape input)
-		(at 121.92 48.26 180)
+		(at 121.92 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2877,7 +2917,7 @@
 	)
 	(hierarchical_label "COM"
 		(shape input)
-		(at 121.92 66.04 180)
+		(at 121.92 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2987,7 +3027,7 @@
 	)
 	(hierarchical_label "COM"
 		(shape input)
-		(at 121.92 29.21 180)
+		(at 121.92 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,7 +3093,7 @@
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 21.59 0)
+		(at 129.54 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3062,15 +3102,6 @@
 		(fields_autoplaced yes)
 		(uuid "06eeb486-b741-4df4-93ac-abbd099bac3e")
 		(property "Reference" "K1"
-			(at 140.97 20.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
 			(at 140.97 22.8599 0)
 			(effects
 				(font
@@ -3079,8 +3110,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SANYOU_SRD-S-124D"
+			(at 140.97 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 22.86 0)
+			(at 140.97 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 21.59 0)
+			(at 129.54 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3139,7 @@
 			)
 		)
 		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 21.59 0)
+			(at 129.54 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3148,7 @@
 			)
 		)
 		(property "LCSC" "C276436"
-			(at 129.54 21.59 0)
+			(at 129.54 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3182,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 195.58 53.34 0)
+		(at 195.58 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3151,15 +3191,6 @@
 		(fields_autoplaced yes)
 		(uuid "212ae32d-dc1d-4ebb-9ecd-8e14c28bcbec")
 		(property "Reference" "J1"
-			(at 198.12 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x08"
 			(at 198.12 55.8799 0)
 			(effects
 				(font
@@ -3168,8 +3199,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 198.12 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00293_1x08_P5.08mm_Horizontal"
-			(at 195.58 53.34 0)
+			(at 195.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 53.34 0)
+			(at 195.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3227,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 53.34 0)
+			(at 195.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3236,7 @@
 			)
 		)
 		(property "LCSC" "C27587"
-			(at 195.58 53.34 0)
+			(at 195.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3279,7 @@
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 77.47 0)
+		(at 129.54 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3248,15 +3288,6 @@
 		(fields_autoplaced yes)
 		(uuid "3f836207-5b0d-4671-ac65-635c61e11634")
 		(property "Reference" "K4"
-			(at 140.97 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
 			(at 140.97 78.7399 0)
 			(effects
 				(font
@@ -3265,8 +3296,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SANYOU_SRD-S-124D"
+			(at 140.97 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 78.74 0)
+			(at 140.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 77.47 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3325,7 @@
 			)
 		)
 		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 77.47 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3334,7 @@
 			)
 		)
 		(property "LCSC" "C276436"
-			(at 129.54 77.47 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 40.64 0)
+		(at 109.22 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3434,7 +3474,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ac51eca-4309-4ab8-a72b-bf11c1d11afc")
 		(property "Reference" "TP2"
-			(at 111.76 36.7029 0)
+			(at 111.76 39.2429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3483,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 38.608 0)
+			(at 111.76 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3492,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 40.64 0)
+			(at 114.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 40.64 0)
+			(at 114.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3510,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 40.64 0)
+			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3519,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 40.64 0)
+			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3667,7 @@
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 40.64 0)
+		(at 129.54 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3636,15 +3676,6 @@
 		(fields_autoplaced yes)
 		(uuid "a72b51fd-d37d-442f-a31a-b51cfcbb085c")
 		(property "Reference" "K2"
-			(at 140.97 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
 			(at 140.97 41.9099 0)
 			(effects
 				(font
@@ -3653,8 +3684,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SANYOU_SRD-S-124D"
+			(at 140.97 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 41.91 0)
+			(at 140.97 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3704,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 40.64 0)
+			(at 129.54 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3713,7 @@
 			)
 		)
 		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 40.64 0)
+			(at 129.54 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3722,7 @@
 			)
 		)
 		(property "LCSC" "C276436"
-			(at 129.54 40.64 0)
+			(at 129.54 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3756,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 20.32 0)
+		(at 109.22 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3724,7 +3764,7 @@
 		(dnp no)
 		(uuid "c82f8245-9989-4f26-b30e-d808e99887fa")
 		(property "Reference" "TP1"
-			(at 111.76 16.3829 0)
+			(at 111.76 18.9229 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3773,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 108.712 17.526 0)
+			(at 108.712 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3782,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 20.32 0)
+			(at 114.3 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 20.32 0)
+			(at 114.3 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3800,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 20.32 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3809,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 20.32 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3831,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 77.47 0)
+		(at 109.22 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3800,7 +3840,7 @@
 		(fields_autoplaced yes)
 		(uuid "da8f8ad9-847f-4cde-a72d-d6c162057b63")
 		(property "Reference" "TP4"
-			(at 111.76 73.5329 0)
+			(at 111.76 76.0729 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3849,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 75.438 0)
+			(at 111.76 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3858,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 77.47 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3867,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 77.47 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3876,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 77.47 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3885,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 77.47 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4033,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 57.15 0)
+		(at 109.22 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4002,7 +4042,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe3af6b1-9bdb-4dcb-83d6-b5aed6220ef3")
 		(property "Reference" "TP3"
-			(at 111.76 53.2129 0)
+			(at 111.76 55.7529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4051,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 55.118 0)
+			(at 111.76 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4060,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 57.15 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 57.15 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4078,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 57.15 0)
+			(at 109.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4087,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 57.15 0)
+			(at 109.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 129.54 58.42 0)
+		(at 129.54 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4078,15 +4118,6 @@
 		(fields_autoplaced yes)
 		(uuid "ff75dc6c-16e8-4aad-a683-60149750c687")
 		(property "Reference" "K3"
-			(at 140.97 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD-S-124D"
 			(at 140.97 59.6899 0)
 			(effects
 				(font
@@ -4095,8 +4126,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SANYOU_SRD-S-124D"
+			(at 140.97 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 140.97 59.69 0)
+			(at 140.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4146,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 129.54 58.42 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4155,7 @@
 			)
 		)
 		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 129.54 58.42 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4164,7 @@
 			)
 		)
 		(property "LCSC" "C276436"
-			(at 129.54 58.42 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
